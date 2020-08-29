@@ -1,0 +1,13 @@
+[package]
+name = "diff-derive"
+version = "0.1.0"
+authors = ["Bram Vandenbogaerde <contact@bramvdb.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0.39"
+quote = "1.0.7"
+proc-macro2 = "1.0.19"
